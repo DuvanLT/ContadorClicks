@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Unbounded:wght@700&display=swap');
+
+body{
+    background: #000;
+    padding: 0;
+    margin: 0;
+   color: #fff;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: start;
+    background: #fff;
+    font-family: 'Unbounded', cursive;
+}
+button{
+    padding: 12px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-family: 'Unbounded', cursive;
+}
+.cc{
+    display: flex;
+    margin: 40px;
+    color: #000;
+}
+.cc p{
+    padding: 0;
+    margin: 0px 0px 0px 10px;
+}
+.achievement{
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    background: #000;
+    color: #fff;
+    top: -200px;
+    padding: 20px;
+    font-size: 12px;
+    transition: all 1s;
+}
+.showAch{
+    top: 0px;
+}
+h1{
+    text-align: center;
+}
+.container-rules{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    max-width: 900px;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    button{
+            padding: 24px 48px;
+    }
+    .container-rules{
+        font-size: 26px;
+    }
+    
+}
